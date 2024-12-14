@@ -1,3 +1,4 @@
+/* Styling for the entire webpage */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #6dd5fa, #2980b9);
@@ -7,6 +8,7 @@ body {
     margin: 0;
 }
 
+/* Styling the container that holds the main content */
 .container {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -16,16 +18,19 @@ body {
     margin: auto;
 }
 
+/* Styling main header */
 h1 {
     margin-bottom: 20px;
     font-size: 2.5em;
     color: #fff;
 }
 
+/* Styling for sections containing input fields */
 .input-section {
     margin-bottom: 20px;
 }
 
+/* Input field styling */
 input {
     padding: 10px;
     border: none;
@@ -34,6 +39,7 @@ input {
     margin-bottom: 10px;
 }
 
+/* Button styling */
 button {
     padding: 10px 15px;
     border: none;
@@ -44,29 +50,35 @@ button {
     margin: 5px;
 }
 
+/* Hover effect for buttons */
 button:hover {
     background-color: #2980b9;
 }
 
+/* For weather information section */
 .weather-info {
     display: none;
     margin-top: 20px;
 }
 
+/* Header section inside the weather information box */
 .weather-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Styling weather header text */
 .weather-header h2 {
     margin: 0;
 }
 
+/* Styling weather icon */
 .weather-header img {
     width: 50px;
 }
 
+/* Styling individual weather information lines  by adding spacing and increasing font*/
 .weather-info div {
     margin-bottom: 10px;
     font-size: 1.2em;
